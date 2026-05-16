@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.pyc
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+dist/
+.turbo/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Env
+.env
+.env.local
+.env.*.local
+.tarkon
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+pm2-logs/
+logs/
+
+# Docker / Podman
+*.pid

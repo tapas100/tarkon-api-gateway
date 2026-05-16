@@ -1,0 +1,25 @@
+routes:
+  - prefix: /api/v1/auth
+    upstream: AUTH_SERVICE_URL
+    stripPrefix: false
+  - prefix: /api/v1/chat
+    upstream: ORCHESTRATOR_URL
+    stripPrefix: false
+  - prefix: /api/v1/missions
+    upstream: CORE_API_URL
+    stripPrefix: false
+  - prefix: /api/v1/memory
+    upstream: MEMORY_ENGINE_URL
+    stripPrefix: false
+  - prefix: /api/v1/rag
+    upstream: RAG_ENGINE_URL
+    stripPrefix: false
+  - prefix: /api/v1/assignments
+    upstream: ASSIGNMENT_ENGINE_URL
+    stripPrefix: false
+  - prefix: /api/v1/reasoning
+    upstream: REASONING_ENGINE_URL
+    stripPrefix: false
+  - prefix: /ws
+    upstream: REALTIME_URL
+    websocket: true
