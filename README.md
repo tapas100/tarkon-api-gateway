@@ -59,7 +59,7 @@ docs/
 helm/
   api-gateway/
 Dockerfile
-docker-compose.yml
+podman-compose.yml
 ```
 
 ---
